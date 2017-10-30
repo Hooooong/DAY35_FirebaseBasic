@@ -38,9 +38,9 @@ ____________________________________________________
 
   - Gradle 설정
 
-      ```xml
+      ```Gradle
       // Android Studio 3.0 이상 Version
-      implementation 'com.google.firebase:firebase-database:11.4.2'  
+      implementation 'com.google.firebase:firebase-database:11.4.2' 
       // Android Studio 3.0 미만 Version
       complie 'com.google.firebase:firebase-database:11.4.2'
       ```
@@ -54,7 +54,6 @@ ____________________________________________________
       FirebaseDatabase database;
       DatabaseReference rootRef;
       DatabaseReference userRef;
-
       // 1. Firebase DataBase 와 Connection 을 한다.
       database = FirebaseDatabase.getInstance();
       // 2. Database 의 Node 연결
@@ -62,7 +61,6 @@ ____________________________________________________
       rootRef = database.getReference();
       // Root 하위에 있는 user Node 를 참조한다.
       userRef = database.getReference("user");
-
       // 하위 Node 값을 참조하고 싶으면 아래와 같이 작성
       // user 에 있는 tag 의 값들을 참조한다.
       DatabaseReference tagRef = userRef.child("user/tag");
