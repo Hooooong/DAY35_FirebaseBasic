@@ -45,11 +45,14 @@ ____________________________________________________
   FirebaseDatabase database;
   DatabaseReference rootRef;
   DatabaseReference userRef;
+
   // 1. Firebase DataBase 와 Connection 을 한다.
   database = FirebaseDatabase.getInstance();
+
   // 2. Database 의 Node 연결
   // 아무런 Node 를 정의하지 않으면, root Node 를 참조한다.
   rootRef = database.getReference();
+  
   // Root 하위에 있는 user Node 를 참조한다.
   userRef = database.getReference("user");
   ```
