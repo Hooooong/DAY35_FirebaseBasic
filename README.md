@@ -22,7 +22,7 @@ ____________________________________________________
 
   2. [https://console.firebase.google.com](https://console.firebase.google.com) 에서 프로젝트 생성
 
-  3. 2번에 나와있는 순서대로 작성
+  3. 2번에 나오는 내용 순서대로 작성
 
 - Firebase Database 사용
 
@@ -52,9 +52,6 @@ ____________________________________________________
   rootRef = database.getReference();
   // Root 하위에 있는 user Node 를 참조한다.
   userRef = database.getReference("user");
-  // 하위 Node 값을 참조하고 싶으면 아래와 같이 작성
-  // user 에 있는 tag 의 값들을 참조한다.
-  DatabaseReference tagRef = userRef.child("user/tag");
   ```
 
   - DataBase 값 변경 감지
