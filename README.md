@@ -50,15 +50,13 @@ ____________________________________________________
 
 - Firebase Realtime Database 란?
 
-  - 기본적으로 Firebase Database 는 NoSQL 이다.
-
-  - NoSQL 이기 때문에 JSON 형식으로 생각하면 된다.
+  > Firebase는 실시간 데이터베이스와 백엔드 서비스를 제공한다. 이 서비스는 어플리케이션 개발자에게 하나의 API를 제공하는데 이 API는 어플리케이션 데이터가 고객 그리고 저장된 Firebase 클라우드와 자동 동기화되도록 해준다. 기본적으로 Firebase Realtime Database 는 NoSQL 로 제공이 된다.
+  
+- Firebase Realtime Database 사용 방법
 
   - 생성을 해주면 기본적으로 사용할 수 있지만, 규칙을 바꿔줘야 사용이 가능하다.
 
   - [https://firebase.google.com/docs/database/security/quickstart?authuser=0](https://firebase.google.com/docs/database/security/quickstart?authuser=0) 에서 Sample 규칙을 통해 규칙 수정
-
-- Firebase Realtime Database 사용 방법
 
   - Gradle 설정 : [Firebase Database 설정](https://firebase.google.com/docs/database/android/start/?authuser=0)
 
