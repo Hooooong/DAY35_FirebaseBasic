@@ -42,7 +42,7 @@ ____________________________________________________
 
       1. Android Project 생성
 
-      ![Firebase Start](https://github.com/Hooooong/DAY35_FirebaseBasic/blob/master/image/firebase.PNG)
+      ![Firebase Start](https://github.com/Hooooong/DAY35_FirebaseBasic/blob/master/image/firebase.png)
 
       2. 위 이미지 순서대로 시작
 
